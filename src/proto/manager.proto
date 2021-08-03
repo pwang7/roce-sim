@@ -1,0 +1,6 @@
+syntax = "proto3";
+import "message.proto";
+
+service Manager {
+    rpc Version(VersionRequest) returns (VersionResponse) {}
+}
